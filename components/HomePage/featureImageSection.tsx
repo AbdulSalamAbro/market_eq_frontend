@@ -135,6 +135,7 @@ const FeatureImagSection: FC<any> = ({data}) => {
    const imgSrc = data.bannerImage.asset.url
    const primaryTag = data.PrimaryTag.title
    const readMoreLabel =  data.readMore.label
+   
     return (
         <FeatureWrapper>
             <ImageCard Title={title} buttonLabel={readMoreLabel} imgSrc={imgSrc} tag={primaryTag}/>

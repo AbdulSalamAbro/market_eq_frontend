@@ -4,8 +4,8 @@ import {getServicePageData} from "@/lib/getServicesData"
 const Index= async () => {
 
     const data = await getServicePageData();
-
-    console.log("the ops data",data)
+    
+    console.log("the================= ops data",data)
 
     return (
         <main>
